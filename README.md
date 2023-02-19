@@ -5,7 +5,7 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 
 1. Average Sum in losslessmixv2.1.py:
 uses **avg_value = sum(values) / num_models**
-2. Weighted Mean in losslessmixv2.1wm.py: uses weighted_avg_value = sum(weighted_values)
+2. Weighted Mean in losslessmixv2.1wm.py: uses **weighted_avg_value = sum(weighted_values)**
 
 # What improved
 1. You can use from 2 models to an infinity (you can mix any quantity models you want, but if you mix 2 models - it is just a Weighted sum 0.5 (use alpha/beta args then)).
