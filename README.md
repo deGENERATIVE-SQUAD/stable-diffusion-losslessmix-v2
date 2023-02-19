@@ -8,7 +8,7 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 # Recommendations
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
 # Changelog
-+ v2.1 (in progress)
++ v2.1 
 Fixed KeyErrors when key is not present in one of the models being merged.
 + v2
 Initial commit
