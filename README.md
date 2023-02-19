@@ -13,6 +13,8 @@ You can use these args:
 
 # Recommendations
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
+Also recommend to use --alpha 0.0 argument to apply A model text encoder without halving values and merging of each halfs of a text encoder from models (like Weighted Sum algo does) but you can experiment with an alpha/beta mixing like from original script.
+
 # Changelog
 + v2.2
 (in progress)
