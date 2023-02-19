@@ -5,6 +5,12 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 2. Script calculates average tensor values from all models you choose, in my research it is much better than default choosing existing values near the base model because much more smoothie. 
 # How to use
 **python losslessmixv2.py --models** model1.ckpt model2.ckpt model3.ckpt **--out name**
+
+You can use these args:
+--maxdiff (Maxdiff algo from https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3 )
+--alpha (e.g. --alpha 0.9)
+--beta (e.g. --beta 1.1)
+
 # Recommendations
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
 # Changelog
