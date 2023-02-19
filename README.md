@@ -15,7 +15,7 @@ You can use these args:
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
 # Changelog
 + v2.2
-(in progress) Harmonic Mean and Geometric mean implementation
+(in progress)
 + v2.1 
 Fixed KeyErrors when key is not present in one of the models being merged.
 + v2
