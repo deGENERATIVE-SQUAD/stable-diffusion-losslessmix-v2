@@ -18,7 +18,8 @@ You can use these args:
 # Changelog
 + v2.2
 (in progress)
-+ v2.1 
++ v2.1wm as Weighted mean tensor mixing function implementation
++ v2.1 as 
 Fixed KeyErrors when key is not present in one of the models being merged.
 + v2
 Initial commit
