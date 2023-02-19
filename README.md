@@ -1,5 +1,12 @@
 # stable-diffusion-losslessmix-v2
 This is a simplified fork of https://github.com/recoilme/losslessmix
+
+# Script versions
+
+1. Average Sum in losslessmixv2.1.py:
+uses **avg_value = sum(values) / num_models**
+2. Weighted Mean in losslessmixv2.1wm.py: uses weighted_avg_value = sum(weighted_values)
+
 # What improved
 1. You can use from 2 models to an infinity (you can mix any quantity models you want, but if you mix 2 models - it is just a Weighted sum 0.5 (use alpha/beta args then)).
 2. Script calculates average tensor values from all models you choose, in my research it is much better than default choosing existing values near the base model because much more smoothie. 
