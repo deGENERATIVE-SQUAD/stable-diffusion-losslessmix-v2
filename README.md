@@ -7,5 +7,10 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 **python losslessmixv2.py --models** model1.ckpt model2.ckpt model3.ckpt **--out name**
 # Recommendations
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
+# Changelog
++ v2.1 (in progress)
+Fixed KeyErrors when key is not present in one of the models being merged.
++ v2
+Initial commit
 # Future updates
 Testing another types of calculation which more powerful than average values
