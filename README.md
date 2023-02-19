@@ -7,9 +7,9 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 **python losslessmixv2.py --models** model1.ckpt model2.ckpt model3.ckpt **--out name**
 
 You can use these args:
---maxdiff (Maxdiff algo from https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3 )
---alpha (e.g. --alpha 0.9)
---beta (e.g. --beta 1.1)
+1. --maxdiff (Maxdiff algo from https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3 )
+2. --alpha (e.g. --alpha 0.9)
+3. --beta (e.g. --beta 1.1)
 
 # Recommendations
 Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
