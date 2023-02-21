@@ -6,7 +6,7 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 1. Average Sum in losslessmixv2.1.py:
 uses **avg_value = sum(values) / num_models**
 2. Weighted Mean in losslessmixv2.1wm.py: uses **weighted_avg_value = sum(weighted_values)**
-3. Bayesian approach in losslessmixv2.1bav2.py: uses Bayesian approach with --max_posterior
+3. Bayesian approach in losslessmixv2.1bav2.py: **uses Bayesian approach with --max_posterior**
 
 # What improved
 1. You can use from 2 models to an infinity (you can mix any quantity models you want).
@@ -25,12 +25,14 @@ uses **avg_value = sum(values) / num_models**
    + python losslessmixv2.1bav2.py --models 1.ckpt 2.ckpt 3.ckp  --out name --max_posterior
 
 # Recommendations
+In basic losslessmixv2.1.py and losslessmixv2.1wm.py versions:
 + Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
 + Also recommend to use --alpha 0.0 argument to apply A model text encoder without halving values and merging of each halfs of a text encoder from models (like Weighted Sum algo does) but you can experiment with an alpha/beta mixing like from original script.
 
 # Changelog
 + v2.2
 (in progress)
++ v2.1bav2 as Bayesian approach implementation
 + v2.1wm as Weighted mean tensor mixing function implementation
 + v2.1 as 
 Fixed KeyErrors when key is not present in one of the models being merged.
