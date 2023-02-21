@@ -12,8 +12,8 @@ uses **avg_value = sum(values) / num_models**
 2. Script calculates average tensor values from all models you choose, in my research it is much better than default choosing existing values near the base model because much more smoothie. 
 # How to use
 
-1. For losslessmixv2.1.py and losslessmixv2.1wm.py 
-**python losslessmixv2.1.py --models** model1.ckpt model2.ckpt model3.ckpt **--out name**
+1. For losslessmixv2.1.py and losslessmixv2.1wm.py: 
+   + **python losslessmixv2.1.py --models** model1.ckpt model2.ckpt model3.ckpt **--out name**
 
    You can use these args:
    + --maxdiff (Maxdiff algo from https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3 )
