@@ -7,6 +7,7 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 uses **avg_value = sum(values) / num_models**
 2. Weighted Mean in losslessmixv2.1wm.py: uses **weighted_avg_value = sum(weighted_values)**
 3. Bayesian approach in losslessmixv2.1bav2.py: **uses Bayesian approach with --max_posterior**
+4. Cosine similarity in losslessmixv2.1cs.py: it is like from new version https://github.com/recoilme/losslessmix but can mix multiple models
 
 # What improved
 1. You can use from 2 models to an infinity (you can mix any quantity models you want).
@@ -23,7 +24,14 @@ uses **avg_value = sum(values) / num_models**
 
 2. For losslessmixv2.1bav2.py:
    + python losslessmixv2.1bav2.py --models 1.ckpt 2.ckpt 3.ckp  --out name --max_posterior
+ 
+2. For losslessmixv2.1cs.py:
+   + python losslessmixv2.1cs.py model1.ckpt model2.ckpt model3.ckpt --out name
 
+   You can use these args:
+   + --soft for soft cosine similarity mode
+   + --s arg not tested
+   
 # Recommendations
 In basic losslessmixv2.1.py and losslessmixv2.1wm.py versions:
 + Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
