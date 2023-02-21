@@ -43,6 +43,7 @@ In losslessmixv2.1bav2.py version:
 # Changelog
 + v2.2
 (in progress)
++ 2.1cs as https://github.com/recoilme/losslessmix with multiple models mixing
 + v2.1bav2 as Bayesian approach implementation
 + v2.1wm as Weighted mean tensor mixing function implementation
 + v2.1 as 
