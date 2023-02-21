@@ -29,6 +29,9 @@ In basic losslessmixv2.1.py and losslessmixv2.1wm.py versions:
 + Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
 + Also recommend to use --alpha 0.0 argument to apply A model text encoder without halving values and merging of each halfs of a text encoder from models (like Weighted Sum algo does) but you can experiment with an alpha/beta mixing like from original script.
 
+In losslessmixv2.1bav2.py version:
++ Bayesian approach can not into --alpha and --beta, do not use it.
+
 # Changelog
 + v2.2
 (in progress)
