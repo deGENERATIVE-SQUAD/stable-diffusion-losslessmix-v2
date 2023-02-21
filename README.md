@@ -6,6 +6,7 @@ This is a simplified fork of https://github.com/recoilme/losslessmix
 1. Average Sum in losslessmixv2.1.py:
 uses **avg_value = sum(values) / num_models**
 2. Weighted Mean in losslessmixv2.1wm.py: uses **weighted_avg_value = sum(weighted_values)**
+3. Bayesian approach in losslessmixv2.1bav2.py: uses Bayesian approach with --max_posterior
 
 # What improved
 1. You can use from 2 models to an infinity (you can mix any quantity models you want, but if you mix 2 models - it is just a Weighted sum 0.5 (use alpha/beta args then)).
@@ -19,6 +20,9 @@ uses **avg_value = sum(values) / num_models**
    + --maxdiff (Maxdiff algo from https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3 )
    + --alpha (e.g. --alpha 0.9)
    + --beta (e.g. --beta 1.1)
+
+2. For losslessmixv2.1bav2.py:
+   + python losslessmixv2.1bav2.py --models 1.ckpt 2.ckpt 3.ckp  --out name --max_posterior
 
 # Recommendations
 + Recommend to use with basic SD/NAI models in A position but you can experiment ofcourse.
