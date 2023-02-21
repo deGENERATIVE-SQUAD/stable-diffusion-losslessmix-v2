@@ -9,7 +9,7 @@ uses **avg_value = sum(values) / num_models**
 3. Bayesian approach in losslessmixv2.1bav2.py: uses Bayesian approach with --max_posterior
 
 # What improved
-1. You can use from 2 models to an infinity (you can mix any quantity models you want, but if you mix 2 models - it is just a Weighted sum 0.5 (use alpha/beta args then)).
+1. You can use from 2 models to an infinity (you can mix any quantity models you want).
 2. Script calculates average tensor values from all models you choose, in my research it is much better than default choosing existing values near the base model because much more smoothie. 
 # How to use
 
