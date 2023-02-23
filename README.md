@@ -29,7 +29,7 @@ uses **avg_value = sum(values) / num_models**
    + python losslessmixv2.1cs.py model1.ckpt model2.ckpt model3.ckpt --out name
 
    You can use these args:
-   + --soft for soft cosine similarity mode
+   + --soft for soft cosine similarity mode (broken with multiple models, do not use it)
    + --s arg not tested
    
 # Recommendations
