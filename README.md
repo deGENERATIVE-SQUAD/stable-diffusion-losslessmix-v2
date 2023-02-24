@@ -79,5 +79,11 @@ Up:
 
 **+ losslessmixv2.1bav2 --max-posterior**
 
+Base:
+
 ![This is an image](https://i.imgur.com/eoIADa9.png)
+
+Up:
+
+![This is an image](https://i.imgur.com/OfcbV5z.png)
 
