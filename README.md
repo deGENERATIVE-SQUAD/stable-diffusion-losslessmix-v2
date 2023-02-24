@@ -52,3 +52,24 @@ Fixed KeyErrors when key is not present in one of the models being merged.
 Initial commit
 # Future updates
 Testing another types of calculation which more powerful than average values
+
+#Examples
+
+All images upscaled through Ultimate Upscale from 512 to 1024 + Valar upscale model, DS 0.37
+
+Base gen using CFG scale fix (CFG 14 -> mimic 7, Half Cosine Up, 7, Half Cosine Up, 7, 0)
+
+Model set in one merge: SD 1.5 + NAI + AOM2 + grapefruitv4 + babes11 + corneos7thHeavenMix_v2 + hyperass + CounterfeitV25
+
+Pos: woman, sfw
+
+Neg: worst quality, low quality, deformed, distorted, disfigured poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, mutated hands and fingers, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, monochrome, greyscale
+
++ losslessmixv2.1cs --soft
+
+![This is an image](https://i.imgur.com/ONe8jG2.png)
+
++ losslessmixv2.1bav2 --max-posterior
+
+![This is an image](https://i.imgur.com/eoIADa9.png)
+
