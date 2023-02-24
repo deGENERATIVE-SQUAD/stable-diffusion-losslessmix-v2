@@ -67,7 +67,7 @@ Neg: worst quality, low quality, deformed, distorted, disfigured poorly drawn, b
 
 Seed: 145052541
 
-**+ losslessmixv2.1cs **
+**+ losslessmixv2.1cs**
 
 Base: 
 
