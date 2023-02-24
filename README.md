@@ -65,11 +65,11 @@ Pos: woman, sfw
 
 Neg: worst quality, low quality, deformed, distorted, disfigured poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, mutated hands and fingers, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, monochrome, greyscale
 
-**+ losslessmixv2.1cs --soft
+**+ losslessmixv2.1cs --soft**
 
 ![This is an image](https://i.imgur.com/ONe8jG2.png)
 
-**+ losslessmixv2.1bav2 --max-posterior
+**+ losslessmixv2.1bav2 --max-posterior**
 
 ![This is an image](https://i.imgur.com/eoIADa9.png)
 
